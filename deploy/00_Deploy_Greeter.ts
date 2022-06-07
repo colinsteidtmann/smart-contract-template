@@ -33,7 +33,7 @@ const deployFunction: DeployFunction = async ({ getNamedAccounts, deployments })
 
   log("----------------------------------------------------");
 };
-deployFunction.skip = async (hre) => true;
+// deployFunction.skip = async (hre) => true;
 export default deployFunction;
 deployFunction.tags = [`all`, `greeter`, `main`];
 // tags can be used with hardhat-deploy and hardhat.config to customize things
